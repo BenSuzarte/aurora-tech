@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "npm:dependencies": "npm i && cd server && npm i && cd .. && cd client && npm i",
+    "npm:server": "cd server && yarn start:dev",
+    "npm:client": "cd client && yarn dev",
+
+    "yarn:dependencies": "yarn && cd server && yarn && cd .. && cd client && yarn",
+    "yarn:server": "cd server && yarn start:dev",
+    "yarn:client": "cd client && yarn dev"
+  }
+}
